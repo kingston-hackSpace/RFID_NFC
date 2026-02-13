@@ -12,9 +12,11 @@ If you’ve ever used a mobile payments app like Apple Pay or Google Pay, or a c
 
 It allows: quickly transfer data, or instantly pair with Bluetooth devices like headphones and speakers.
 
+ RFID can be [active or passive](https://learn.sparkfun.com/tutorials/connectivity-of-the-internet-of-things#rfid-and-nfc). Read more here.
+
 ## NFC 
 
-NFC (Near Field Communication) it's an evolution of RFID, so anything you can do with RFID you can do with NFC, the difference is that it has a much lower transmission range.
+NFC (Near Field Communication) it's an evolution of RFID, so anything you can do with RFID you can do with NFC, the difference is that it has a much lower transmission range (a few centimeters).
 
 ## How does it work?
 
@@ -23,6 +25,8 @@ Both RFID and NFC operate on the principle of inductive coupling, at least for s
 Every RFID system consists of three components: a scanning antenna, a transceiver and a transponder. he RFID reader is a network-connected device, such as an Arduino, a Raspberry Pi, or your smartphone. The transponder is in the RFID tag itself. 
 
 Depending on your tag, it can only read data, or read and write. 
+
+
 
 
 ## Purchase

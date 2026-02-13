@@ -30,17 +30,11 @@ Depending on your tag, it can only read data, or read and write.
 
 
 ## Purchase
+ 
+[RFID/NFC from The Pi Hut](https://thepihut.com/search?q=rfid&narrow_by=&sort_by=relevency&page=1)
 
-
-## Projects / Tutorials  for ADAFRUIT 
-
-[Web NFC](https://learn.adafruit.com/using-webnfc)
-
-[Magic Band - play sound and lights](https://learn.adafruit.com/magic-band-reader?embeds=allow)
-
-[Scannable Links with NFC](https://learn.adafruit.com/scannable-links-with-nfc/overview)
-
-[NFC Raspberry Pi Media Player](https://learn.adafruit.com/nfc-raspberry-pi-media-player)
+[RFID/NFC from Pimoroni](https://shop.pimoroni.com/search?q=rfid)
+ 
 
 ## Projects / Tutorials for RFID-RC522 MODEL
 
@@ -49,6 +43,18 @@ Depending on your tag, it can only read data, or read and write.
 [How to Read and Write RFID Tags With Raspberry Pi](https://raspberrytips.com/use-rfid-tags-raspberry-pi/)
 
 [How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+
+## Projects / Tutorials  for ADAFRUIT PN532 NFC/RFID controller
+
+*Note: We don't have this equipment at hackSpace.*
+
+[Web NFC](https://learn.adafruit.com/using-webnfc)
+
+[Magic Band - play sound and lights](https://learn.adafruit.com/magic-band-reader?embeds=allow)
+
+[Scannable Links with NFC](https://learn.adafruit.com/scannable-links-with-nfc/overview)
+
+[NFC Raspberry Pi Media Player](https://learn.adafruit.com/nfc-raspberry-pi-media-player)
 
 ## Uses
 

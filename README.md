@@ -59,7 +59,7 @@ SCK – Pin 13
 
 NSS – Pin 10
 
-See diagram [here]
+See diagram [here](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/RFID_arduino_connections.webp)
 
 **Code and Instructions:**
 

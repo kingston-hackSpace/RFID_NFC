@@ -65,8 +65,17 @@ See diagram [here](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/RFID
 
 - Upload [this code](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/RFID_basic.ino) to your Arduino board.
 
-(content.substring(1) == "04 C3 12 4A E8 14 90"))
-UID tag : F3 B1 50 8C
+- Open the Serial Monitor.
+
+- Tap your card on the RFID module.
+
+- In the Serial Monitor, you should see the **UID**, similar to this example: UID tag : F3 B1 50 8C. That ID corresponds to your specific tag card.
+
+- Scroll down the code and replace this line: ((content.substring(1) == "F3 B1 50 8C")) with your own tag ID.
+
+- Save and upload the new code.
+
+- The LED should turn on when you tap the card. 
 
 ## Projects / Tutorials for RFID-RC522 MODEL
 

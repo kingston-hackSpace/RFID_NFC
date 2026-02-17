@@ -45,8 +45,25 @@ Depending on your tag, it can only read data, or read and write.
 
 **Wiring:**
 
+VCC - 3.3V
+
+RST – Pin 9
+
+GND – GND
+
+MISO – Pin 12
+
+MOSI – Pin 11
+
+SCK – Pin 13
+
+NSS – Pin 10
+
+See diagram [here]
+
 **Code and Instructions:**
 
+- Upload [this code](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/RFID_basic.ino) to your Arduino board.
 
 (content.substring(1) == "04 C3 12 4A E8 14 90"))
 UID tag : F3 B1 50 8C

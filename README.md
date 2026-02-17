@@ -35,6 +35,21 @@ Depending on your tag, it can only read data, or read and write.
 
 ## Basic Tutorial
 
+**Hardware:**
+
+- Arduino UNO
+
+- RFID module + card tag
+
+- LED + 220 ohms resistor
+
+**Wiring:**
+
+**Code and Instructions:**
+
+
+(content.substring(1) == "04 C3 12 4A E8 14 90"))
+UID tag : F3 B1 50 8C
 
 ## Projects / Tutorials for RFID-RC522 MODEL
 

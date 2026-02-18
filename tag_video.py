@@ -1,20 +1,24 @@
 #!/usr/bin/env python3
-from pirc522 import RFID
+import RPi.GPIO as GPIO
+from mfrc522 import SimpleMFRC522
 import subprocess
+import os
 
-rdr = RFID()
-print("Waiting for card...")
+os.environ["DISPLAY"] = ":0"
 
+reader = SimpleMFRC522()
 try:
+    print("Waiting for card...")
     while True:
-        rdr.wait_for_tag()
-        error, tag_type = rdr.request()
-        if not error:
-            print("Card detected!")
-            error, uid = rdr.anticoll()
-            if not error:
-                print("UID:", uid)
-                # Play video with VLC
-                subprocess.run(["cvlc", "--play-and-exit", "myvideo.mp4"])
-except KeyboardInterrupt:
-    print("Exiting...")
+        id, text = reader.read()
+        print("ID:", id)
+        print("Text:", text)
+        subprocess.run([
+            "cvlc",
+            "--fullscreen",
+            "--no-video-title-show",
+            "--play-and-exit",
+            "/home/hackspace/Desktop/videos/myvideo.mp4"
+        ])
+finally:
+    GPIO.cleanup()

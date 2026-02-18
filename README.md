@@ -85,7 +85,7 @@ Follow the text 3 tutorials in order:
 
 2. [How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    
-3. [Which is my ID ?](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/my_ID.py)
+3. [Which is my ID? - code](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/my_ID.py)
 
    Run this code and tak note of the specific ID number of your tag. This step will be necessary for the next two steps. 
 

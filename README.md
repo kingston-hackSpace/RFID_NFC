@@ -79,9 +79,13 @@ See diagram [here](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/RFID
 
 ## Projects / Tutorials for RFID-RC522 MODEL
 
-[Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/)
+Follow the text 3 tutorials in order:
 
-[How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+1. [Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/)
+
+2. [How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+
+3. [Tag to play video in a Raspberry Pi](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video.py)
 
 ## Projects / Tutorials  for ADAFRUIT PN532 NFC/RFID controller
 

@@ -81,8 +81,6 @@ See diagram [here](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/RFID
 
 [Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/)
 
-[How to Read and Write RFID Tags With Raspberry Pi](https://raspberrytips.com/use-rfid-tags-raspberry-pi/)
-
 [How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
 
 ## Projects / Tutorials  for ADAFRUIT PN532 NFC/RFID controller

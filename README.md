@@ -84,10 +84,13 @@ Follow the text 3 tutorials in order:
 1. [Interface RC522 RFID Module with Arduino](https://lastminuteengineers.com/how-rfid-works-rc522-arduino-tutorial/)
 
 2. [How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
+   
 
-3. [Tag to play video in a Raspberry Pi](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video.py)
+4. [Tag to play video in a Raspberry Pi](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video.py)
 
-4. [Tag to play video in a Raspberry Pi + specific card ID]
+   IMPORTANT: your video should be called "myvideo.mp4" and be located at the folder you created in the previous tutorial ("pi-rfid")
+
+6. [Tag to play video in a Raspberry Pi + specific card ID](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video_specific-ID.py)
 
 ## Projects / Tutorials  for ADAFRUIT PN532 NFC/RFID controller
 

@@ -1,33 +1,31 @@
 #!/usr/bin/env python3
-import os
+import RPi.GPIO as GPIO
+from mfrc522 import SimpleMFRC522
 import subprocess
-from pirc522 import RFID
+import os
 
-os.environ["DISPLAY"] = ":0"
+os.environ["DISPLAY"] = ":0"  # ensure VLC knows which desktop to use
 
-rdr = RFID()
-allowed_uid = [123, 45, 67, 89]  # replace with your card's UID
+reader = SimpleMFRC522()
 
-print("Waiting for authorized card...")
+# Replace with the UID integer of your authorized card
+AUTHORIZED_UID = 3654321  
 
 try:
+    print("Waiting for authorized card...")
     while True:
-        rdr.wait_for_tag()
-        error, tag_type = rdr.request()
-        if not error:
-            error, uid = rdr.anticoll()
-            if not error:
-                print("Detected UID:", uid)
-                if uid == allowed_uid:
-                    print("Authorized card! Playing video...")
-                    subprocess.run([
-                        "cvlc",
-                        "--fullscreen",
-                        "--no-video-title-show",
-                        "--play-and-exit",
-                        "/home/hackspace/Desktop/videos/myvideo.mp4"
-                    ])
-                else:
-                    print("Unauthorized card. Ignoring.")
-except KeyboardInterrupt:
-    print("Exiting...")
+        id, text = reader.read()
+        print("Detected UID:", id)
+        if id == AUTHORIZED_UID:
+            print("Authorized card! Playing video...")
+            subprocess.run([
+                "cvlc",
+                "--fullscreen",
+                "--no-video-title-show",
+                "--play-and-exit",
+                "/home/hackspace/Desktop/videos/myvideo.mp4"
+            ])
+        else:
+            print("Unauthorized card. Ignoring.")
+finally:
+    GPIO.cleanup()

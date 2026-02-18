@@ -85,9 +85,7 @@ Follow the text 3 tutorials in order:
 
 2. [How to Set Up a Raspberry Pi RFID RC522 Chip](https://pimylifeup.com/raspberry-pi-rfid-rc522/)
    
-3. [Which is my ID? - code](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/my_ID.py)
-
-   Run this code and tak note of the specific ID number of your tag. This step will be necessary for the next two steps. 
+   When you run the Read.py code, take note of the specific ID number of your tag. This will be necessary for the next two steps. 
 
 4. [Tag to play video in a Raspberry Pi](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video.py)
 
@@ -95,6 +93,11 @@ Follow the text 3 tutorials in order:
 
 5. [Tag to play video in a Raspberry Pi + specific card ID](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video_specific-ID.py)
 
+
+## Bonus
+
+[Which is my ID? - code](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/my_ID.py)
+   
 ## Projects / Tutorials  for ADAFRUIT PN532 NFC/RFID controller
 
 *Note: We don't have this equipment at hackSpace.*

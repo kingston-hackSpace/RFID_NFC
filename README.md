@@ -87,6 +87,8 @@ Follow the text 3 tutorials in order:
 
 3. [Tag to play video in a Raspberry Pi](https://github.com/kingston-hackSpace/RFID_NFC/blob/main/tag_video.py)
 
+4. [Tag to play video in a Raspberry Pi + specific card ID]
+
 ## Projects / Tutorials  for ADAFRUIT PN532 NFC/RFID controller
 
 *Note: We don't have this equipment at hackSpace.*
